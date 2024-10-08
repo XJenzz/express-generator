@@ -1,0 +1,17 @@
+<p>Ini Halaman Program Studi</p>
+<table class="table">
+    <tr>
+        <th>Nama Prodi</th>
+        <th>Fakultas</th>
+        <th>Singkatan</th>
+    </tr>
+    <h4>Daftar Program Studi</h4>
+    <% prodi.forEach(studi => { %>
+        <tr>
+            <td><%= studi.namaprodi %></td>
+            <td><%= studi.fakultas %></td>
+            <td><%= studi.singkatan %></td>
+        </tr>
+        <% }) %>
+    </table>
+    
